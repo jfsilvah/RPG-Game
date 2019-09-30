@@ -186,6 +186,7 @@ function fighter_selected(){
            $("#yourLive").text("Live: 0");
            $("#liveEnemy").text("Live: 0");
            $("#yourDamage").text("Draw Game!");
+           $("#attack").text("Restart");
        }
    }
 }
