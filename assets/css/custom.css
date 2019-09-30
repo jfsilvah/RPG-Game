@@ -1,6 +1,7 @@
 body{
     background-image: url("../images/map.jpg");
     background-size: 100vw;
+    background-repeat: no-repeat;
 }
 
 .header_img{
@@ -22,3 +23,34 @@ body{
     padding-left: 0%;
     padding-right: 0%;
 }
+
+.header_msg{
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-size: 2.5vw;
+    color: rgb(252,223,69);
+}
+
+.damage_msg{
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    font-size: 1.5vw;
+    color: rgb(252,223,69);
+}
+
+.image_content {
+    height: 7vw;
+    width: 7vw;
+    border: 0vw solid;
+    margin: 0 1% 0 3%;
+    border-top-color: #ffee00;
+    border-right-color: #ffee00;
+    border-bottom-color: #8d9246;
+    border-left-color: #8d9246;
+}
+
+.row{
+    margin-right: 0px;
+}
+
+
