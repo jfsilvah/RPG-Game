@@ -184,7 +184,7 @@ function fighter_selected(){
 
        if (yourFighter.live <= 0 && enemySelected.live <= 0){
            $("#yourLive").text("Live: 0");
-           $("#enemyLive").text("Live: 0");
+           $("#liveEnemy").text("Live: 0");
            $("#yourDamage").text("Draw Game!");
        }
    }
