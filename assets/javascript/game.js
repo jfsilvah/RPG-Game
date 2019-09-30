@@ -73,13 +73,13 @@ function reset() {
 function putImages() {
     $("#enemy").hide();
     $("#mainMessage").text("Choose another Enemy");
+    $("#attackButton").hide();
+    availableFighters = false;
     if (!yourFighter.status){
         $("#yourFighter").hide();
         $("#mainMessage").text("Choose your fighter");    
         $("#characters").show();
     }
-    $("#attackButton").hide();
-    availableFighters = false;
     for (var i = 0; i < fighters.length; i++) {
         if (fighters[i].status){
             availableFighters = true;

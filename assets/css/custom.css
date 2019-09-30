@@ -2,6 +2,7 @@ body{
     background-image: url("../images/map.jpg");
     background-size: 100vw;
     background-repeat: no-repeat;
+    background-color: rgb(0,1,119);
 }
 
 .header_img{
@@ -51,6 +52,20 @@ body{
 
 .row{
     margin-right: 0px;
+}
+
+.figtherImage{
+    height: 20vw;
+    width: 15vw;
+}
+
+.vsImage{
+    height: 10vw;
+    width: 10vw;
+}
+
+#attackButton{
+    
 }
 
 
